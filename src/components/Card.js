@@ -7,8 +7,10 @@ function Card( {user} ) {
             <div className="card">
             <div className="card-body">
                 <h5 className="card-title">Special title treatment</h5>
+
+                <img alt="user" src={user.picture.thumbnail}/>
               
-                 <p className="card-text">{user.name.first + " " + user.name.last}</p> 
+                 <p className="card-image">{user.name.first + " " + user.name.last}</p> 
 
                  <p className="card=text">{user.email}</p>
 
