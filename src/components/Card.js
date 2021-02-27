@@ -6,15 +6,13 @@ function Card( {user} ) {
         <div className="col-sm-6">
             <div className="card">
             <div className="card-body">
-                <h5 className="card-title">Special title treatment</h5>
+                <h5 className="card-title">{user.name.first + " " + user.name.last}</h5>
 
                 <img alt="user" src={user.picture.thumbnail}/>
-              
-                 <p className="card-image">{user.name.first + " " + user.name.last}</p> 
 
-                 <p className="card=text">{user.email}</p>
+                 <p className="card=text">Email: {user.email}</p>
 
-                 <p className="card=text">{user.phone}</p>
+                 <p className="card=text">Phone Number: {user.phone}</p>
 
 
 
