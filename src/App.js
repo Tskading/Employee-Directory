@@ -1,5 +1,4 @@
-import React, { Component } from "react";
-import axios from "axios";
+import React from "react";
 import Header from "./components/Header";
 import Card from "./components/Card";
 import API from "./utils/API";
